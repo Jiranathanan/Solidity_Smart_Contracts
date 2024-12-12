@@ -11,6 +11,31 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Sent",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -30,8 +55,26 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "sender",
+				"name": "minter",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -40,6 +83,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -71,11 +132,11 @@
 	},
 	"sources": {
 		"Crypto-Token-Contract.sol": {
-			"keccak256": "0xf42d62b3a6641ba1721155bdb16ae9745e25d65abbffe6202c56c6f00b32d548",
+			"keccak256": "0x52a36e58b07a37c02b7cca616d391316f675ba5138a2745c33379bd5605774f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec1896a865a8df6f58f40aa6e1ec82ab8f6d5bf49f3da2dd72ab607e663053cb",
-				"dweb:/ipfs/QmXaRVks6dicngXdMduCJXRuBPqcvmyMjBBBH82aSAY4gB"
+				"bzz-raw://a9d21a8c6e731fedf1c581d9a47228eff5a198704d1019f1d6009a2440f13828",
+				"dweb:/ipfs/QmQCtXgX3B5MYQaaPtn6hsB4muvJt6HzA2kT5r1ewBZEHw"
 			]
 		}
 	},
