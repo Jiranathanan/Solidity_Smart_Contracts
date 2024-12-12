@@ -7,8 +7,13 @@ contract CryptoToken {
     // mapping takes a key which maps to a value
     // mapping(key => value) public mapName
     mapping(address => uint) public balances;
+
+    // Events allow clients to react to specific contract
+    // Types of events: Sent Transfer Allow
+    // Events take 2 steps: 1. Setting up, 2. Emitting the event
+    event Sent(address from, address to, uint amount);
     
-   // uint private tokens = 4000000;
+    // uint private tokens = 4000000;
 
     uint private totalSupply = 7;
     address public sender;
