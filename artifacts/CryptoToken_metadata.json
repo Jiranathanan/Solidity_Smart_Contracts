@@ -7,12 +7,23 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "minter",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +71,11 @@
 	},
 	"sources": {
 		"Crypto-Token-Contract.sol": {
-			"keccak256": "0x7521156bc7e553f043ca8bd9919b1d6f83a68bd723531e2811bebe03006457d3",
+			"keccak256": "0xf42d62b3a6641ba1721155bdb16ae9745e25d65abbffe6202c56c6f00b32d548",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eee14040bfb1e2e550adae51a569ea63f5dbbe706c31d6563200d18c4654ef71",
-				"dweb:/ipfs/QmVJMqTSKd8Cbqjc85LbLjqGYggi2iPwoSaV2Z8CKQVGHP"
+				"bzz-raw://ec1896a865a8df6f58f40aa6e1ec82ab8f6d5bf49f3da2dd72ab607e663053cb",
+				"dweb:/ipfs/QmXaRVks6dicngXdMduCJXRuBPqcvmyMjBBBH82aSAY4gB"
 			]
 		}
 	},
