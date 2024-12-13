@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "changeArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getLength",
 				"outputs": [
@@ -107,6 +126,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "removeElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -137,11 +169,11 @@
 	},
 	"sources": {
 		"arrays.sol": {
-			"keccak256": "0x2be068ac2de93a9f4f0d11d74792c425d5837cc4d74a41bb0c1af3b7c2b95dd3",
+			"keccak256": "0x0dfcb7f0d963dccdd85fe91310b65840a71df4d450083dd1cf0f8a11ff394f09",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0adbf3dd01eb5c3e4df240ff583e1fd44dd1975cd237bcb84de8fca1c3d77c82",
-				"dweb:/ipfs/QmU4XUgnvn6cZi71jDtenq2oyxauLw534rWYQ4nUr5GBWg"
+				"bzz-raw://0b0f21b2f689fa6988aa8bc0edb6c2b43962d535d9b6a7a4f94871e482b4aafb",
+				"dweb:/ipfs/Qmdhz5vm51iZT3F6hPDFRPPB5K4bLehvF3drGxqqXKz5XG"
 			]
 		}
 	},

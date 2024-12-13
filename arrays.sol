@@ -28,6 +28,13 @@ contract learnArrays {
         // [1, 2, 3] 
         // delete myArray[2]
         // [1, 2, 0]
-        
+
+    }
+
+    // try to write function to get rid of element from an array
+    uint[] public changeArray;
+    function removeElement(uint i) public {
+        changeArray[i] = changeArray[changeArray.length - 1];
+        changeArray.pop();
     }
 }
